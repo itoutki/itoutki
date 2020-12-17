@@ -7,3 +7,13 @@
 
 = README
 
+[source, java]
+----
+@Bean
+SelfIntroduction selfIntroduction() {
+    return SelfIntroduction.builder()
+        .name("Tsukasa", "Ito")
+        .company("NTT DATA")
+        .role("Architect")
+        .build();
+----
